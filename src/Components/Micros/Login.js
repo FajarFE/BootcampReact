@@ -1,8 +1,8 @@
-import React from "react";
-import { Link } from "react-router-dom";
+
 
 export default function Login() {
   return (
+    <>
     <div className="w-screen h-screen flex justify-center items-center overflow-hidden">
       <div className="flex-col">
         <div className="w-[542px] h-[405px] rounded-xl bg-white flex justify-center items-center shadow-xl flex-col gap-4">
@@ -37,5 +37,7 @@ export default function Login() {
         </span>
       </div>
     </div>
+    
+    </>
   );
 }
