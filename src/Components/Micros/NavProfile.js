@@ -15,7 +15,7 @@ export default function NavCart (){
             <nav className="container mx-auto py-2  flex flex-col gap-1">
                 <div className="flex justify-between gap-4 text-white items-center">
                     <div className="flex gap-4">
-                    <a href="#">Home</a><span>|</span>
+                    <a href="/">Home</a><span>|</span>
                     <a href="#">Discount</a><span>|</span>
                     <a href="#">Category</a><span>|</span>
                     </div>

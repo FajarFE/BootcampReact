@@ -11,7 +11,7 @@ export default function NavCart (){
     return(
         <>
        
-        <div className="bg-blue mb-2 relative w-screen">
+        <div className="bg-blue relative w-screen">
             <nav className="container mx-auto py-2  flex flex-col gap-1">
                 <div className="flex justify-between gap-4 text-white items-center">
                     <div className="flex gap-4">

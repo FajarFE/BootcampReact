@@ -6,9 +6,12 @@ import CartPage from './CartPage';
 import WishlistPage from './WishlistPage';
 import ProfilePage from './ProfilePage';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import store from '../Components/Store/store'
 
 function App() {
   return (
+<Provider store={store}>
     <Router>
       <Routes>
         <Route path="/" element={<LandingPage />} />
@@ -19,6 +22,7 @@ function App() {
         <Route path="/profile" element={<ProfilePage />} />
       </Routes>
     </Router>
+</Provider>
   );
 }
 

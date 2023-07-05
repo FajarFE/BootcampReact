@@ -16,10 +16,10 @@ const Card = ({ image, name, price,label }) => {
                     </label>
                 </div>
             )}
-            <img className="h-[200px] object-fit rounded-t-[7px]" src="https://placehold.co/600x400" alt={name} />
+            <img className="h-[200px] object-fit rounded-t-[7px]" src={image} alt={name} />
             <div className="flex flex-col gap-2 px-5 py-4">
-                <div className="font-bold text-xl">{name}0okwaodaodoado</div>
-                <p className="text-gray text-base">{price}awdokawodo</p>
+                <div className="font-bold text-xl">{name}</div>
+                <p className="text-gray text-base">${price}</p>
                 <div className="flex justify-between items-center">
                     <button className="bg-blue hover:bg-blue text-white font-bold py-2 px-10 rounded">
                         Beli

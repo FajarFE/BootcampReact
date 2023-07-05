@@ -31,9 +31,9 @@ export default function NavHome (){
                         </svg>
                         
                         </div>
-                        <div className=" rounded rounded-2 border-2 border relative border-white w-[80px] flex justify-center items-center h-auto text-white font-bold">
+                        <a href="/login" className=" rounded rounded-2 border-2 border relative border-white w-[80px] flex justify-center items-center h-auto text-white font-bold">
                         Login
-                        </div>
+                        </a>
                     </div>
                     
                 </div>
